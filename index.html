@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="navbar">
+            <h1>Dojonary</h1>
+            <p class="search"><input type="text" name="search" placeholder=" Search"></p>
+            <button onclick="logOut(this)" class="login">Login</button>
+        </div>
+        <div class="row">
+            <div class="column1">
+                <div class="ninjabox">
+                    <div>
+                        <h2 class="header">ninja</h2>
+                        <p class="noun">noun</p>
+                        <p class="plural">Plural: <span class="italic">ninjas</span></p>
+                        <button onclick="alert('Ninja was liked')" class="likes">13&nbsp;likes</button>
+                    </div>
+                    <div>
+                    <p class="description">A practitioner skilled in the <a href="google.com">Japanese</a> art of <a href="google.com">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="ninjabox">
+                    <div>
+                        <h2 class="header">ninja</h2>
+                        <p class="noun">noun</p>
+                        <p class="plural">Plural: <span class="italic">ninjas</span></p>
+                        <button onclick="alert('Ninja was liked')" class="likes">37&nbsp;likes</button>
+                    </div>
+                    <p class="description">A <a href="https://www.google.com">programmer</a> who breaks down problems with a <a href="https://www.google.com">zen</a>-like focus</p>
+                </div>
+                
+            </div>
+            <div class="column2">
+                <div class="definition">
+                    <p class="you">Dojonary is defined by YOU</p>
+                    <button onclick="hide(this)" class="define">Add Definition</button>
+                    <script src="script.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
